@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Wine, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import CocktailIcon from "@/components/CocktailIcon";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
