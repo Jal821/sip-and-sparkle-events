@@ -206,7 +206,7 @@ export const blogPosts: BlogPost[] = [
     slug: "barmansky-workshop-ako-teambuilding",
     category: "Firemné eventy",
     categories: ["Firemné eventy", "Oslavy & Párty"],
-    metaTitle: "Barmanský workshop ako teambuilding — prečo to funguje | Sip & Sparkle",
+    metaTitle: "Barmanský workshop ako teambuilding — prečo to funguje | Cocktails4You",
     metaDescription: "Hľadáte originálny teambuilding pre vašu firmu? Barmanský cocktail workshop je zábavný, interaktívny a ľudia ho milujú. Zistite, ako to celé funguje.",
     readingTime: "4 min",
     cardTitle: "Barmanský workshop ako teambuilding — prečo to funguje lepšie ako lezenie po lane",
