@@ -12,7 +12,7 @@ const Footer = () => {
           
           <div className="text-center md:text-right">
             <p className="text-primary-foreground/80">
-              © 2025 Sip & Sparkle Events | Nápojový Catering Slovensko
+              © 2025 Cocktails4You | Nápojový Catering Slovensko
             </p>
           </div>
         </div>

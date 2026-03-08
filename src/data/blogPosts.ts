@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "ako-vybrat-mobilny-bar-na-svadbu",
     category: "Svadby",
-    metaTitle: "Ako vybrať mobilný bar na svadbu? Kompletný sprievodca | Sip & Sparkle",
+    metaTitle: "Ako vybrať mobilný bar na svadbu? Kompletný sprievodca | Cocktails4You",
     metaDescription: "Plánujete svadbu a rozmýšľate nad mobilným barom? Zistite, na čo si dať pozor, koľko to stojí a prečo je barový catering trendom číslo 1 na slovenských svadbách.",
     readingTime: "6 min",
     cardTitle: "Ako vybrať mobilný bar na svadbu? Kompletný sprievodca pre nevesty a ženíchov",
@@ -78,7 +78,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "koktaily-vino-pivo-co-vybrat-na-firemny-event",
     category: "Firemné eventy",
-    metaTitle: "Koktaily, víno alebo pivo? Čo vybrať na firemný event | Sip & Sparkle",
+    metaTitle: "Koktaily, víno alebo pivo? Čo vybrať na firemný event | Cocktails4You",
     metaDescription: "Firemný event plánujete prvýkrát alebo hľadáte inšpiráciu? Poradíme vám, aký nápojový mix funguje najlepšie na teambuildingy, konferencie a firemné večierky.",
     readingTime: "5 min",
     cardTitle: "Koktaily, víno alebo pivo? Čo vybrať na firemný event",
@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "outdoor-vs-indoor-mobilny-bar",
     category: "Tipy & Rady",
-    metaTitle: "Outdoor vs. Indoor mobilný bar — čo potrebujete vedieť | Sip & Sparkle",
+    metaTitle: "Outdoor vs. Indoor mobilný bar — čo potrebujete vedieť | Cocktails4You",
     metaDescription: "Záhradná párty alebo elegantná sála? Zistite, ako sa líšia požiadavky na mobilný bar pre outdoor a indoor eventy a na čo nezabudnúť pri plánovaní.",
     readingTime: "4 min",
     cardTitle: "Outdoor vs. Indoor mobilný bar — čo potrebujete vedieť pred rezerváciou",
@@ -162,7 +162,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "top-10-koktailov-na-slovensku",
     category: "Nápoje & Drinky",
-    metaTitle: "Top 10 najobľúbenejších koktailov na eventoch na Slovensku | Sip & Sparkle",
+    metaTitle: "Top 10 najobľúbenejších koktailov na eventoch na Slovensku | Cocktails4You",
     metaDescription: "Ktoré koktaily si Slováci na eventoch objednávajú najčastejšie? Náš barmanský tím zostavil rebríček Top 10 drinkov, ktoré vždy bodujú.",
     readingTime: "5 min",
     cardTitle: "Top 10 koktailov, ktoré Slováci milujú na eventoch",
@@ -206,7 +206,7 @@ export const blogPosts: BlogPost[] = [
     slug: "barmansky-workshop-ako-teambuilding",
     category: "Firemné eventy",
     categories: ["Firemné eventy", "Oslavy & Párty"],
-    metaTitle: "Barmanský workshop ako teambuilding — prečo to funguje | Sip & Sparkle",
+    metaTitle: "Barmanský workshop ako teambuilding — prečo to funguje | Cocktails4You",
     metaDescription: "Hľadáte originálny teambuilding pre vašu firmu? Barmanský cocktail workshop je zábavný, interaktívny a ľudia ho milujú. Zistite, ako to celé funguje.",
     readingTime: "4 min",
     cardTitle: "Barmanský workshop ako teambuilding — prečo to funguje lepšie ako lezenie po lane",

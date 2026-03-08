@@ -64,7 +64,7 @@ const BlogPost = () => {
             </h1>
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground mb-8">
-              <span>Tím Sip & Sparkle Events</span>
+              <span>Tím Cocktails4You</span>
               <span>•</span>
               <span>{formattedDate}</span>
               <span>•</span>

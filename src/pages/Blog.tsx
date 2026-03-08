@@ -27,7 +27,7 @@ const Blog = () => {
   return (
     <>
       <Helmet>
-        <title>Blog & Tipy | Mobilný Bar & Nápojový Catering Slovensko | Sip & Sparkle</title>
+        <title>Blog & Tipy | Mobilný Bar & Nápojový Catering Slovensko | Cocktails4You</title>
         <meta
           name="description"
           content="Rady, inšpirácia a tipy zo sveta nápojového cateringu na Slovensku. Mobilný bar na svadbu, firemné eventy, koktaily, víno a pivo."

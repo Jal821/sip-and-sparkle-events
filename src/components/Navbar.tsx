@@ -23,7 +23,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2">
           <Wine className="w-7 h-7 text-accent" />
           <span className="text-lg font-bold text-primary-foreground">
-            Sip & Sparkle
+            Cocktails4You
           </span>
         </Link>
 
