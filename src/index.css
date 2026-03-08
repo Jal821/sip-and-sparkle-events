@@ -109,6 +109,10 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  img {
+    image-orientation: from-image;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', sans-serif;
