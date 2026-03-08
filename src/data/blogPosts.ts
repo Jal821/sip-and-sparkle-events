@@ -32,7 +32,7 @@ export const blogPosts: BlogPost[] = [
     cardExcerpt: "Mobilný bar na svadbu sa stal štandardom, nie luxusom. Ale ako vybrať toho správneho partnera a na čo si dať pozor?",
     h1: "Ako vybrať mobilný bar na svadbu? Kompletný sprievodca pre nevesty a ženíchov",
     date: "2026-02-15",
-    coverImage: "/assets/coupe-cocktails.jpg",
+    coverImage: coupeCocktails,
     content: `<p class="text-lg text-muted-foreground mb-8 leading-relaxed">Svadba je jeden z najdôležitejších dní vášho života — a nápoje sú jeho neoddeliteľnou súčasťou. Mobilný bar na svadbu sa stal v posledných rokoch na Slovensku štandardom, nie luxusom. Ale ako vybrať toho správneho partnera? Na čo si dať pozor? A koľko to vlastne stojí? V tomto článku vám prezradíme všetko, čo potrebujete vedieť.</p>
 
 <h2>Prečo mobilný bar a nie klasický barman za stolom?</h2>
