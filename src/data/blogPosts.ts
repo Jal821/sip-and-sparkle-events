@@ -85,7 +85,7 @@ export const blogPosts: BlogPost[] = [
     cardExcerpt: "Firemný event plánujete prvýkrát alebo hľadáte inšpiráciu? Poradíme, aký nápojový mix funguje najlepšie.",
     h1: "Koktaily, víno alebo pivo? Ako vybrať správny nápojový mix na firemný event",
     date: "2026-02-08",
-    coverImage: "/assets/indoor-demanovka.webp",
+    coverImage: indoorDemanovka,
     content: `<p class="text-lg text-muted-foreground mb-8 leading-relaxed">Firemné eventy sú príležitosťou posilniť tímového ducha, poďakovať zamestnancom alebo zapôsobiť na klientov. A nápoje hrajú v tejto rovnici väčšiu rolu, ako si väčšina HR manažérov pripúšťa. Správny výber nápojov dokáže rozbiť ľady, uvolniť atmosféru a vytvoriť spomienky. Tu je náš sprievodca.</p>
 
 <h2>Typy firemných eventov a ich nápojové profily</h2>
