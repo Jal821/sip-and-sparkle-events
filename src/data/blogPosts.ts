@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "ako-vybrat-mobilny-bar-na-svadbu",
     category: "Svadby",
-    metaTitle: "Ako vybrať mobilný bar na svadbu? Kompletný sprievodca | Sip & Sparkle",
+    metaTitle: "Ako vybrať mobilný bar na svadbu? Kompletný sprievodca | Cocktails4You",
     metaDescription: "Plánujete svadbu a rozmýšľate nad mobilným barom? Zistite, na čo si dať pozor, koľko to stojí a prečo je barový catering trendom číslo 1 na slovenských svadbách.",
     readingTime: "6 min",
     cardTitle: "Ako vybrať mobilný bar na svadbu? Kompletný sprievodca pre nevesty a ženíchov",

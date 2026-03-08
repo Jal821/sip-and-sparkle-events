@@ -27,7 +27,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Prečo si vybrať Sip & Sparkle Events?
+              Prečo si vybrať Cocktails4You?
             </h2>
             <p className="text-lg text-muted-foreground">
               Robíme z každého eventu nezabudnuteľný zážitok
