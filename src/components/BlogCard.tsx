@@ -67,6 +67,7 @@ const BlogCard = ({ post, featured = false }: BlogCardProps) => {
           alt={post.cardTitle}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
           loading="lazy"
+          style={post.coverImageRotation ? { transform: post.coverImageRotation } : undefined}
         />
         <span className="absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-semibold bg-accent text-accent-foreground">
           {post.category}
