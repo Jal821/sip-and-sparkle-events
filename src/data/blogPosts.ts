@@ -10,6 +10,7 @@ export interface BlogPost {
   slug: string;
   category: BlogCategory;
   categories?: BlogCategory[];
+  coverImageRotation?: string;
   metaTitle: string;
   metaDescription: string;
   readingTime: string;
