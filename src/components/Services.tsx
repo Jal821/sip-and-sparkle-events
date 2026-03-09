@@ -73,19 +73,19 @@ const ServiceCard = ({ service, index }: { service: typeof services[number]; ind
   const Icon = service.icon;
   return (
     <div
-      className="group relative bg-card rounded-2xl p-8 text-center transition-all duration-500 hover:-translate-y-2 animate-fade-in border border-border/50 hover:border-accent/30 hover:shadow-[0_20px_60px_-15px_hsl(var(--primary)/0.15)]"
+      className="group relative bg-card rounded-2xl p-10 text-center transition-all duration-500 hover:-translate-y-2 animate-fade-in border border-border/50 hover:border-accent/30 hover:shadow-[0_20px_60px_-15px_hsl(var(--primary)/0.15)]"
       style={{ animationDelay: `${index * 100}ms` }}
     >
       {/* Accent line on top */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-0 group-hover:w-16 h-0.5 bg-accent transition-all duration-500 rounded-full" />
 
-      <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-primary/5 group-hover:bg-accent/10 transition-colors duration-500 mb-5">
-        <Icon className="w-7 h-7 text-accent transition-transform duration-500 group-hover:scale-110" />
+      <div className="inline-flex items-center justify-center w-20 h-20 rounded-xl bg-primary/5 group-hover:bg-accent/10 transition-colors duration-500 mb-6">
+        <Icon className="w-10 h-10 text-accent transition-transform duration-500 group-hover:scale-110" />
       </div>
-      <h3 className="text-xl font-semibold mb-3 text-card-foreground">
+      <h3 className="text-2xl font-semibold mb-3 text-card-foreground">
         {service.title}
       </h3>
-      <p className="text-muted-foreground text-sm leading-relaxed">
+      <p className="text-muted-foreground leading-relaxed">
         {service.description}
       </p>
     </div>
