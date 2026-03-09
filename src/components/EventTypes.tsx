@@ -12,19 +12,19 @@ const EventTypes = () => {
             Mobilný Bar na Každý Event
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Od svadobného cocktail hour až po firemný večierok — barový catering šitý na mieru
+            Od svadobného cocktail baru až po firemný večierok — barový catering šitý na mieru
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <Card className="overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-300 group">
             <div className="relative h-64 overflow-hidden">
-              <img 
-                src={indoorDemanovka} 
-                alt="Mobilný bar na svadbu - indoor event" 
+              <img
+                src={indoorDemanovka}
+                alt="Mobilný bar na svadbu - indoor event"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                loading="lazy"
-              />
+                loading="lazy" />
+              
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
               <div className="absolute bottom-6 left-6 text-primary-foreground">
                 <div className="flex items-center gap-3 mb-2">
@@ -42,13 +42,13 @@ const EventTypes = () => {
 
           <Card className="overflow-hidden border-none shadow-lg hover:shadow-2xl transition-all duration-300 group">
             <div className="relative h-64 overflow-hidden">
-              <img 
-                src={outdoorBorecGin} 
-                alt="Firemné eventy a teambuilding - outdoor mobilný bar" 
+              <img
+                src={outdoorBorecGin}
+                alt="Firemné eventy a teambuilding - outdoor mobilný bar"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 loading="lazy"
-                style={{ transform: 'rotate(90deg) scale(1.5)' }}
-              />
+                style={{ transform: 'rotate(90deg) scale(1.5)' }} />
+              
               <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent" />
               <div className="absolute bottom-6 left-6 text-primary-foreground">
                 <div className="flex items-center gap-3 mb-2">
@@ -65,8 +65,8 @@ const EventTypes = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default EventTypes;
