@@ -22,6 +22,11 @@ const services = [
     title: "Nealkoholický Mocktail Bar",
     description: "Sofistikované nealkoholické drinky pre každého hosťa — bez kompromisov na chuti.",
   },
+  {
+    icon: GraduationCap,
+    title: "Prednášky a Degustácie",
+    description: "Interaktívne prednášky o koktailoch, vínach či pive spojené s degustáciou — zážitok pre všetky zmysly.",
+  },
 ];
 
 const Services = () => {
