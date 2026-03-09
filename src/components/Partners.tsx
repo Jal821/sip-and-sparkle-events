@@ -1,0 +1,56 @@
+import { useEffect, useState } from "react";
+import partnerPetrzalka from "@/assets/partner-petrzalka.png";
+import partnerNicolaus from "@/assets/partner-nicolaus.png";
+import partnerMomGin from "@/assets/partner-mom-gin.png";
+
+const partners = [
+  { name: "MČ Bratislava – Petržalka", logo: partnerPetrzalka },
+  { name: "Nicolaus", logo: partnerNicolaus },
+  { name: "MOM Gin", logo: partnerMomGin },
+];
+
+// Duplicate for seamless infinite scroll
+const duplicatedPartners = [...partners, ...partners, ...partners];
+
+const Partners = () => {
+  return (
+    <section className="py-16 bg-muted/20 overflow-hidden">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12 animate-fade-in">
+          <span className="inline-block text-sm font-semibold tracking-widest uppercase text-accent mb-3">
+            Dôverujú nám
+          </span>
+          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+            Partneri a Spolupráce
+          </h2>
+          <div className="w-16 h-1 bg-accent mx-auto rounded-full" />
+        </div>
+
+        {/* Infinite scrolling carousel */}
+        <div className="relative">
+          {/* Fade edges */}
+          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-muted/20 to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-muted/20 to-transparent z-10 pointer-events-none" />
+
+          <div className="flex animate-scroll-left gap-16 items-center w-max">
+            {duplicatedPartners.map((partner, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 flex items-center justify-center h-24 w-48 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-500"
+              >
+                <img
+                  src={partner.logo}
+                  alt={partner.name}
+                  className="max-h-20 max-w-full object-contain"
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Partners;

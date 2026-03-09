@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import EventTypes from "@/components/EventTypes";
 import About from "@/components/About";
 import Gallery from "@/components/Gallery";
+import Partners from "@/components/Partners";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -20,6 +21,7 @@ const Index = () => {
         <About />
       </div>
       <Gallery />
+      <Partners />
       <Contact />
       <Footer />
     </div>
