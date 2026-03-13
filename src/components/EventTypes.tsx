@@ -1,5 +1,5 @@
 import { Building2, Trees, PartyPopper, GraduationCap } from "lucide-react";
-import indoorDemanovka from "@/assets/indoor-demanovka.webp";
+import indoorBarSetup from "@/assets/indoor-bar-setup.jpg";
 import outdoorBorecGin from "@/assets/outdoor-borec-gin.webp";
 import { Card, CardContent } from "@/components/ui/card";
 
