@@ -11,7 +11,7 @@ const Contact = () => {
     name: "",
     email: "",
     phone: "",
-    message: "",
+    message: ""
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -42,8 +42,8 @@ const Contact = () => {
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     required
-                    className="h-12"
-                  />
+                    className="h-12" />
+                  
                 </div>
                 <div>
                   <Input
@@ -52,8 +52,8 @@ const Contact = () => {
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     required
-                    className="h-12"
-                  />
+                    className="h-12" />
+                  
                 </div>
                 <div>
                   <Input
@@ -61,8 +61,8 @@ const Contact = () => {
                     placeholder="Telefón"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    className="h-12"
-                  />
+                    className="h-12" />
+                  
                 </div>
                 <div>
                   <Textarea
@@ -70,15 +70,15 @@ const Contact = () => {
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                     required
-                    className="min-h-32"
-                  />
+                    className="min-h-32" />
+                  
                 </div>
-                <Button 
-                  type="submit" 
-                  size="lg" 
+                <Button
+                  type="submit"
+                  size="lg"
                   className="w-full"
-                  variant="default"
-                >
+                  variant="default">
+                  
                   Kontaktovať nás
                 </Button>
                 <p className="text-center text-sm text-muted-foreground">
@@ -99,7 +99,7 @@ const Contact = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Telefón</h4>
                     <a href="tel:+421900000000" className="text-muted-foreground hover:text-accent transition-colors">
-                      +421 900 000 000
+                      +421 999999999
                     </a>
                   </div>
                 </div>
@@ -133,8 +133,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default Contact;
